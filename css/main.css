@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "28dayslatercyr";
-  src: local("28dayslatercyr"), url("/fonts/28dayslatercyr.ttf") format("truetype");
+  src: local("28dayslatercyr"), url("/profile.v.1/fonts/28dayslatercyr.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -155,7 +155,7 @@ body {
   font-family: "28dayslatercyr";
   font-size: calc(18px + -2 * calc(100vw - (320px)) / 1080);
   color: #fdcda0;
-  background: url("/img/back.png");
+  background: url("/profile.v.1/img/back.png");
 }
 body.__active {
   overflow: hidden;
@@ -203,7 +203,7 @@ body::selection {
   content: "";
   width: calc(200px + 200 * calc(100vw - (320px)) / 1080);
   height: calc(45px + 5 * calc(100vw - (320px)) / 1080);
-  background: url("/img/Group 59456.svg") no-repeat;
+  background: url("/profile.v.1/img/Group 59456.svg") no-repeat;
   z-index: -1;
 }
 
