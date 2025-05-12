@@ -18,7 +18,7 @@ body {
     &.__active {
         overflow: hidden;
     }
-    background: url("/img/back.png");
+    background: url("https://mycola23.github.io/profile.v.1/img/back.png");
     &::selection {
         background: #fe7c0270;
     }
@@ -63,7 +63,7 @@ body {
         @include adaptive-value(width, 200, 400);
         @include adaptive-value(height, 45, 50);
         //height: 50px;
-        background: url("/img/Group 59456.svg") no-repeat;
+        background: url("https://mycola23.github.io/profile.v.1/img/Group 59456.svg") no-repeat;
         z-index: -1;
     }
 }
